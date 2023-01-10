@@ -221,6 +221,8 @@ footer p {
         width: 270px;
         height: 32px;
         bottom: 55px;
+
+        border-radius:  0 0 8px 8px;
     }
 
     .share::after{
