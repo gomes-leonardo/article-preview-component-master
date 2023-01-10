@@ -174,7 +174,9 @@ footer p {
         flex-direction: column;
         width: 400px;
         
-        margin: 50px auto;
+        justify-content: center;
+        align-items: center;
+        
       
         background-color: var(--light-grayish-blue);
       
