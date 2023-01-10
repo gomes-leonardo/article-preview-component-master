@@ -111,7 +111,7 @@ footer p {
 
 
 .wrapper-arrow{
-    width: 35px;
+    width: 25px;
     position: relative;
     left: 134px;
     border-radius: 50%;
@@ -183,20 +183,21 @@ footer p {
       }
 
       .wrapper{
-        width: 340px;
-        height: 285px;
+        width: 240px;
+        height: 265px;
         border-radius:  0 0 8px 8px;
       }
 
       #drawers{
-        width: 400px;
+        width: 300px;
         border-radius: 8px 8px 0 0 ;
       }
 
       .wrapper-arrow{
         width: 25px;
         position: relative;
-        left: 60px;
+        top: 4px;
+        
         border-radius: 50%;
         background-color: var(--light-grayish-blue);
     
@@ -208,10 +209,18 @@ footer p {
         
     }
 
+    h1{
+        font-size: 15px;
+    }
+
+    .text-card{
+        font-size: 11px;
+    }
     .share{
         left: -30px;
-        width: 370px;
-        bottom: 45px;
+        width: 270px;
+        height: 32px;
+        bottom: 55px;
     }
 
     .share::after{
@@ -222,4 +231,7 @@ footer p {
         cursor: pointer;
     }
     
+    footer{
+        font-size: 13px;
+    }
 }
